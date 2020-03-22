@@ -38,9 +38,6 @@ def merge(input_list):
        new_list.extend(sublist)
     return new_list
  
-def maxAbs(input_list):
-    return 
- 
 def split_by_sign(input_list):
     buckets = [[], []]
     for num in input_list:
@@ -50,7 +47,7 @@ def split_by_sign(input_list):
             buckets[1].append(num)
     return buckets
  
-def radix_sort(input_list, base=256):
+def radix_sort(input_list, base):
     if input_list not in [None, []]:
         max_abs = max(abs(num) for num in input_list)
         passes = int(round(log(max_abs, base)) + 1) 
@@ -132,7 +129,8 @@ def quick_sort(input_list):
 sort_methods = {
     'bubble sort': bubble_sort,
     'count sort': count_sort,
-    'radix sort': radix_sort,
+    'radix sort (base64)': lambda l: radix_sort(l, base=64),
+    'radix sort (base256)': lambda l: radix_sort(l, base=256),
     'merge sort': merge_sort,
     'quick_sort': quick_sort
 }
