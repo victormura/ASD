@@ -2,12 +2,12 @@
 # Arbori binari de cautare echilibrati
 DariusB, ambitios din fire, va da o multime vida initial si doreste sa ii raspundeti la Q operatii de tipul:
 
-1 : inserati numarul X in multime
-2 : stergeti numarul X din multime (daca acesta exista)
-3 : afisati 1 daca numarul X este in multime, alftel afisati 0
-4 : afisati cel mai mare numar Y, mai mic sau egal cu X
-5 : afisati cel mai mic numar Y, mai mare sau egal cu X
-6 : afisati in ordine sortata, toate numerele Z, unde X ≤ Z ≤ Y
+1. inserati numarul X in multime
+2. stergeti numarul X din multime (daca acesta exista)
+3. afisati 1 daca numarul X este in multime, alftel afisati 0
+4. afisati cel mai mare numar Y, mai mic sau egal cu X
+5. afisati cel mai mic numar Y, mai mare sau egal cu X
+6. afisati in ordine sortata, toate numerele Z, unde X ≤ Z ≤ Y
 Ajutati-l pe DariusB sa rezolve operatiile!
 
 ## Date de intrare
